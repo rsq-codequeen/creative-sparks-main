@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'GreycliffCF';
+  src: url('../assets/fonts/GreycliffCF-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GreycliffCF';
+  src: url('../assets/fonts/GreycliffCF-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hover-zoom {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.1);
+}

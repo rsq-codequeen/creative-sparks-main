@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/**/*.tsx",
+    "src/**/*.ts",
+    "locales/**/*.ts"  // Ensure this path includes your translation files
+, "src/LanguageContext.tsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
