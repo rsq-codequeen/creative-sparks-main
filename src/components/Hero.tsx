@@ -19,6 +19,10 @@ export function Hero() {
           <Title order={2} style={{ animation: 'scaleIn 1.2s ease-out' }}>
             {t('Haven')}
           </Title>
+         
+          <Title order={2} style={{ animation: 'scaleIn 1.2s ease-out' }}>
+            {t('Haven')}
+          </Title>
           <Text style={{ animation: 'fadeIn 1.5s forwards' }}>
             {t('WelcomeMessage')}
           </Text>
@@ -29,7 +33,9 @@ export function Hero() {
               to='/shop'
               style={{
                 transition: 'transform 0.3s',
-                ':hover': { transform: 'scale(1.05)' }, // Hover effect on the button
+                ':hover': { transform: 'scale(1.05)' },
+               
+                 // Hover effect on the button
               }}
             >
               {t('ShopNow')} {/* Translate the button text */}
