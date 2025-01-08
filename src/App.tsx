@@ -26,6 +26,7 @@ import { Register } from "./components/Register";
 import { Login } from "./components/Login";
 import { Wishlist } from "./components/Wishlist";
 import { LanguageProvider } from './LanguageContext'; 
+
 export function App() {
   return (
     <LanguageProvider>
