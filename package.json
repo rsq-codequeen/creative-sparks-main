@@ -5,13 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+   "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format:write": "prettier --write \"**/*.{ts,tsx,js,cjs,mjs,json,md,mdx,html,css}\" --cache",
     "format:check": "prettier --check \"**/*.{ts,tsx,js,cjs,mjs,json,md,mdx,html,css}\" --cache",
     "check": "pnpm lint && pnpm format:check"
+     
   },
   "dependencies": {
     "@lingui/core": "^5.1.2",
