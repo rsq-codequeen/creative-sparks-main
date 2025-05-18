@@ -20,9 +20,6 @@ export function Hero() {
             {t('Haven')}
           </Title>
          
-          <Title order={2} style={{ animation: 'scaleIn 1.2s ease-out' }}>
-            {t('Haven')}
-          </Title>
           <Text style={{ animation: 'fadeIn 1.5s forwards' }}>
             {t('WelcomeMessage')}
           </Text>

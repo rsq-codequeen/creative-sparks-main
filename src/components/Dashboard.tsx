@@ -40,17 +40,17 @@ export function Dashboard() {
         </SimpleGrid>
 
         <Flex justify='space-evenly' align='center'>
-          <PieChart
-            size={300}
-            data={[
-              { name: 'Paintings', value: 54, color: 'indigo.6' },
-              { name: 'Prints', value: 32, color: 'yellow.6' },
-              { name: 'Home Decor', value: 45, color: 'teal.6' },
-              { name: 'Art Supplies', value: 12, color: 'gray.6' },
-            ]}
-            withTooltip
-            withLabels
-          />
+        <LineChart
+  h={300}
+  data={[
+    { name: 'Paintings', value: 54, color: 'indigo.6' },
+    { name: 'Prints', value: 32, color: 'yellow.6' },
+    { name: 'Home Decor', value: 45, color: 'teal.6' },
+    { name: 'Art Supplies', value: 12, color: 'gray.6' },
+  ]}
+  curveType='linear'
+/>
+
           <LineChart
             h={300}
             w={700}

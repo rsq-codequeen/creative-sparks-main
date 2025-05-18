@@ -32,8 +32,10 @@ export function JoinExhibition() {
           </SimpleGrid>
 
           <Title order={2}>Payment Information</Title>
+          <SimpleGrid cols={2}>
           <TextInput label='Cardholder Name' placeholder='Enter Cardholder Name' required />
-          <TextInput label='Card Number' placeholder='Enter Card Number' type='text' required />
+          <TextInput label='xyz Name' placeholder='Enter xyz Name' required /><TextInput label='Card Number' placeholder='Enter Card Number' type='text' required />
+          </SimpleGrid>
           <SimpleGrid cols={2}>
             <TextInput label='Expiry Date' placeholder='MM/YY' type='text' required />
             <TextInput label='CVV' placeholder='Enter CVV' type='password' required />
